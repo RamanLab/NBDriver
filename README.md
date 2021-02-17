@@ -26,6 +26,11 @@ pandas - 0.25.3
 numpy - 1.18.5  
 imblearn - 0.5.0  
 ggplot2 - 3.3.2  
+reshape2 - 1.4.4   
+stringr - 1.4.0  
+tidyr - 1.1.2  
+readr - 1.4.0  
+caret - 6.0.86
 
 ## Preprint Link
 [Link](https://www.biorxiv.org/content/10.1101/2021.02.09.430460v1)
