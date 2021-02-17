@@ -18,8 +18,9 @@ The Brown et al. dataset was used as training data for our analysis. Raw nucleot
 
 ## Data
 Training data was derived from a study by Brown et al., where they published mutation data from experimental assays labelled as drivers/passengers.
-> -- <cite>Brown AL, Li M, Goncearenco A, Panchenko AR (2019) Finding driver mutations in cancer: Elucidating the role of background mutational processes. PLOS Computational Biology 15(4): e1006981. https://doi.org/10.1371/journal.pcbi.1006981</cite>
-
+><cite>Brown AL, Li M, Goncearenco A, Panchenko AR (2019) Finding driver mutations in cancer: Elucidating the role of background mutational processes. PLOS Computational Biology 15(4): e1006981. https://doi.org/10.1371/journal.pcbi.1006981</cite>  
+Independent test dataset from a benchamrking study by Martelotto et al. consisted of 989 labelled driver and passenger mutations. 
+><cite>Martelotto, L.G., Ng, C.K., De Filippo, M.R. et al. Benchmarking mutation effect prediction algorithms using functionally validated cancer-related missense mutations. Genome Biol 15, 484 (2014). https://doi.org/10.1186/s13059-014-0484-1</cite>
 ## Dependencies
 scikit-learn - 0.22.1  
 pandas - 0.25.3  
