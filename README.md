@@ -14,6 +14,7 @@ Using missense mutation data from experimental assays, we build a binary classif
 
 ## Overall Workflow of NBDriver
 The Brown et al. dataset was used as training data for our analysis. Raw nucleotide sequences surrounding the mutations published in this study were extracted from the reference genome build GRCH37. Then, seven feature representations, namely, TFIDF Vectorizer (*k*-mer sizes 2,3 and 4), Count Vectorizer (*k*-mer sizes 2,3 and 4) and One-hot encoding were used to convert the string-based features to numerical formats. This was followed by estimating the underlying probability distributions using kernel density estimation and repeated cross-validation experiments using Random Forests, KDE classifer and Extra Trees classifier. The final model (NBDriver) was obtained using a training set derived after removing all overalapping mutations between Brown et al. and an independent test set published by Martelotto et al. Subsequent validation with four separate independent validation sets containing pathogenic data from landamrk studies was also performed to judge the ability of NBDriver in predicting unseen test instances. The overall workflow is summarized below.  
+
 ![workflow](https://user-images.githubusercontent.com/7888886/108258402-f6321b00-7185-11eb-80b5-faaaf5cc03f6.png)
 
 ## Data
