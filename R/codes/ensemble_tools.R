@@ -1,4 +1,5 @@
 #majority voting
+#author: Shayantan Banerjee
 library(pheatmap)
 library(caret)
 library(mltools)
