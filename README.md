@@ -6,7 +6,6 @@ NBDriver (<ins>N</ins>EIGH<ins>B</ins>ORHOOD <ins>Driver</ins>) is a tool used t
 - [Description](#description)
 - [Overall Workflow of NBDriver](#overall-workflow-of-NBDriver)
 - [Data](#data)
-- [Directory Structure] (#directory-structure)
 - [Dependencies](#dependencies)
 - [Preprint Link](#links)
 - [Acknowledgements] (#acknowledgements)
@@ -25,21 +24,6 @@ Training data was derived from a study by Brown et al., where they published mut
 
 Independent test dataset from a benchamrking study by Martelotto et al. consisted of 989 labelled driver and passenger mutations. 
 ><cite>Martelotto, L.G., Ng, C.K., De Filippo, M.R. et al. Benchmarking mutation effect prediction algorithms using functionally validated cancer-related missense mutations. Genome Biol 15, 484 (2014). https://doi.org/10.1186/s13059-014-0484-1</cite>  
-
-## Directory Structure  
- .  
-    ├── R
-    |   └----codes                            # codes written in R to generate results of the repeated CV experiments  
-    |   |----data                             # datasets required to run the codes written in R  
-    |        |----boxplot_data                # Results from the repeated CV experiments for various feature representations  
-    ├── python  
-    │   ├── codes                            # codes written in python to generate NBDriver  
-    │   ├── data  
-    |       ├── NBDriver_saved_models_params  #Saved pretrained model parameters for NBDriver  
-    |       ├── data_brown                    #Feature matrices for all window sizes derived from mutation data published by Brown et al.   
-    |       ├── data_marte                    #Feature matrices for all window sizes derived from benchamrking mutation data published by Martelotto et al.  
-    └── README.md  
-
 
 ## Dependencies
 scikit-learn - 0.22.1  
