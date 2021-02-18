@@ -26,12 +26,12 @@ Training data was derived from a study by Brown et al., where they published mut
 Independent test dataset from a benchamrking study by Martelotto et al. consisted of 989 labelled driver and passenger mutations. 
 ><cite>Martelotto, L.G., Ng, C.K., De Filippo, M.R. et al. Benchmarking mutation effect prediction algorithms using functionally validated cancer-related missense mutations. Genome Biol 15, 484 (2014). https://doi.org/10.1186/s13059-014-0484-1</cite>  
 
-## Directory Structure
+## Directory Structure  
  .  
-    ├── R  
-    │   ├── codes                            # codes written in R to generate results of the repeated CV experiments  
-    |   ├── data                             # datasets required to run the codes written in R  
-    |       ├──boxplot_data                  # Results from the repeated CV experiments for various feature representations  
+    ├── R
+    |   └----codes                            # codes written in R to generate results of the repeated CV experiments  
+    |   |----data                             # datasets required to run the codes written in R  
+    |        |----boxplot_data                # Results from the repeated CV experiments for various feature representations  
     ├── python  
     │   ├── codes                            # codes written in python to generate NBDriver  
     │   ├── data  
