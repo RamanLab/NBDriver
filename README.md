@@ -8,7 +8,7 @@ NBDriver (<ins>N</ins>EIGH<ins>B</ins>ORHOOD <ins>Driver</ins>) is a tool used t
 - [Data](#data)
 - [Dependencies](#dependencies)
 - [Preprint Link](#links)
-- [Acknowledgements] (#acknowledgements)
+- [Acknowledgements](#acknowledgements)
 
 ## Description
 Using missense mutation data from experimental assays, we build a binary classifier by extracting features from the neighborhood sequences of driver and passenger mutations. Our key results are three-fold. First, we use generative models to derive the distances between the underlying probability estimates of the neighborhood sequences for the two classes of mutations. Then, we build robust classification models using repeated cross-validation experiments to derive the median values of the metrics designed to estimate the classification performances. Finally, we demonstrate our models’ ability to predict unseen coding mutations from independent test datasets derived from large mutational databases. 
