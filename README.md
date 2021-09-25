@@ -37,8 +37,8 @@ tidyr - 1.1.2
 readr - 1.4.0  
 caret - 6.0.86
 
-## Preprint Link
-[Link](https://www.biorxiv.org/content/10.1101/2021.02.09.430460v1)
+## Citation
+Banerjee, S.; Raman, K.; Ravindran, B. Sequence Neighborhoods Enable Reliable Prediction of Pathogenic Mutations in Cancer Genomes. Cancers 2021, 13, 2366. https://doi.org/10.3390/cancers1310236
 
 ### Acknowledgements
 * [Initiative for Biological Systems Engineering](https://ibse.iitm.ac.in/)
